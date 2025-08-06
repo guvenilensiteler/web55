@@ -302,7 +302,7 @@
         " class="alt-baslik">Kendi oynadığım ve herhangi bir probleminizde yardımcı olabileceğim güvenli siteler</h6>
 
         <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
-            <a href="https://partner.mersoaff.com/imp/mersobahis/1875" target="_blank">
+            <a href="https://partner.affmerso.com/imp/mersobahis/1875" target="_blank">
                 <img src="merso_banner.jpg" style="width:100%; height:auto; padding-bottom:3px;">
             </a>
         </div>
@@ -396,8 +396,8 @@
             </div>
         </div>
         <div class="row vip king"  :class="['cat' + king.id, 'banner' + king.grid]">
-            <a href="https://partner.mersoaff.com/imp/mersobahis/1875" target="_blank">
-                <img src="merso_banner.jpg" style="width:100%; height:auto; padding-top:3px;">
+            <a href="https://partner.affmerso.com/imp/mersobahis/1875" target="_blank">
+                <img src="merso_banner.jpg" style="width:100%; height:auto; padding-top:7px;">
             </a>
         </div>
 
@@ -493,7 +493,7 @@
         },
         created(){
             this.loading = true;
-            axios.get('https://kazandiransitelerimiz.com/data.json?v=0.0.10')
+            axios.get('https://kazandiransitelerimiz.com/data.json?v=0.0.11')
                 .then((response) => {
                     this.client = response.data.html
                     this.king = _.find(this.client.categories, ['id', 1710467155101]);
